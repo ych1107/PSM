@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!-- 1.发送Email 的类对象-->
+    <bean class="org.springframework.mail.javamail.JavaMailSenderImpl">
+        <!-- 配置邮箱账号 -->
+        <property name="username" value="780278667@qq.com"/>
+        <!-- 这个不是邮箱密码，而是配置 授权码-->
+        <property name="password" value="mfpbxtxoerhhbchd"></property>
+        <!-- 设置编码格式 -->
+        <property name="defaultEncoding" value="UTF-8"/>
+        <!-- 配置smtp服务器-->
+        <property name="host" value="smtp.qq.com"></property>
+
+        <!-- 邮箱服务器属性设置 -->
+        <property name="javaMailProperties">
+            <props>
+                <!-- 邮箱服务器是否支持验证 -->
+                <prop key="mail.smtp.auth">true</prop>
+                <!-- 邮箱服务器连接超时时间  毫秒-->
+                <prop key="mail.smtp.timeout">300000</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
