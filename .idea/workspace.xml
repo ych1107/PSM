@@ -1,0 +1,2158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PSM:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9dc17de1-4b57-4a4d-b52b-5efc6d990e66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/cust/bean/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/cust/bean/CustomerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/cust/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/cust/dao/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/cust/dao/CustomerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/cust/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/cust/service/imp/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/datacollect/bean/Datacollect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/datacollect/bean/DatacollectExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/datacollect/controller/DatacollectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/datacollect/dao/DatacollectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/datacollect/dao/DatacollectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/datacollect/service/DatacollectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/datacollect/service/impl/DatacollectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/format/DateTimeConveter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/format/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/info/bean/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/info/bean/EmailExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/info/bean/Msg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/info/bean/MsgExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/info/controller/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/info/dao/EmailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/info/dao/EmailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/info/dao/MsgMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/info/dao/MsgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/info/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/info/service/imp/EmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/jobs/JobApp01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/jobs/JobEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/sys/bean/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/sys/bean/RoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/sys/bean/RoleSourcesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/sys/bean/SourcesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/sys/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/sys/controller/SourcesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/sys/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/sys/service/RoleSourcesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/sys/service/SourcesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/sys/service/imp/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/sys/service/imp/RoleSourcesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/sys/service/imp/SourcesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/bean/Baoxiao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/bean/BaoxiaoExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/bean/Forumpost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/bean/ForumpostExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/bean/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/bean/NoticeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/bean/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/bean/PositionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/bean/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/bean/TaskExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/controller/BaoxiaoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/controller/ForumPostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/controller/NoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/controller/PositionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/dao/BaoxiaoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/dao/BaoxiaoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/dao/ForumpostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/dao/ForumpostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/dao/NoticeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/dao/NoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/dao/PositionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/dao/PositionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/dao/TaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/dao/TaskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/service/BaoxiaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/service/ForumPostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/service/NoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/service/PositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/service/imp/BaoxiaoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/service/imp/ForumPostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/service/imp/NoticeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/service/imp/PositionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/service/imp/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/utils/MapUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/utils/ResultEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ujiuye/utils/ValidateCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/archives-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/archives.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/baoxiao-task-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/baoxiao-task.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/echarts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/echartsdata.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/forumPost.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Admin(1).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/CssAdmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Dot_Info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Explain.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Login_line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/SoftKey.Js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/SortEnd_Folder_Close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/SortEnd_Folder_Open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Sort_File.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Sort_File_End.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Sort_Folder_Open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Sort_Listline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Survey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Upload.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/css1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/jquery-1.8.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/left.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/left_menu_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/menu01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/menu01_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/minus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/paymentsby_01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qqonline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/teble_bottom_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/teble_top_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/top_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/indexvalue-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/indexvalue-base.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/menu_role.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/message-give.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/message-seed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/message.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/modpassword.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/myarchives.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/mybaoxiao-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/mybaoxiao-base.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/mybaoxiao-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/notice-send.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/notice.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pm-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pm-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-base-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-base-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-base-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-base.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-file-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-file-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-file-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-file.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-function-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-function-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-function-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-function.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-model-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-model-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-model-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-model.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-need-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-need-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-need-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-need.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/role-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/role-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/role-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/role.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/addnews.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/arr3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/arr4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/arrfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/arrl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/arrr.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/book.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/book1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/bottombg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/file_dir.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/gtk-del.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/gtk-sadd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/ico_spider.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/manage1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menu-ex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menu_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menu_bottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menu_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menuarrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menubg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menumember.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menusearch.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/part-index.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/qc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/sp_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/topbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/topitembg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/wbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/js/frame/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/task-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/task-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/task-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/task-my.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/task.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/META-INF/PSM.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/applicationContext-email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/applicationContext-quartz.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/cust/bean/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/cust/bean/CustomerExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/cust/bean/CustomerExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/cust/bean/CustomerExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/cust/bean/CustomerExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/cust/controller/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/cust/dao/CustomerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/cust/dao/CustomerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/cust/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/cust/service/imp/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/bean/Archives.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/bean/ArchivesExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/bean/ArchivesExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/bean/ArchivesExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/bean/ArchivesExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/bean/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/bean/EmployeeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/bean/EmployeeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/bean/EmployeeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/bean/EmployeeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/controller/CodeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/dao/ArchivesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/dao/ArchivesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/dao/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/dao/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/service/ArchivesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/service/imp/ArchivesServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/emp/service/imp/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/format/DateTimeConveter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/bean/Email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/bean/EmailExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/bean/EmailExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/bean/EmailExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/bean/EmailExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/bean/Msg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/bean/MsgExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/bean/MsgExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/bean/MsgExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/bean/MsgExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/controller/EmailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/dao/EmailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/dao/EmailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/dao/MsgMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/dao/MsgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/service/EmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/info/service/imp/EmailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/jobs/JobApp01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/jobs/JobEmail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/Analysis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/AnalysisExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/AnalysisExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/AnalysisExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/AnalysisExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/Attachment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/AttachmentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/AttachmentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/AttachmentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/AttachmentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/Functions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/FunctionsExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/FunctionsExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/FunctionsExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/FunctionsExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/Module.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/ModuleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/ModuleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/ModuleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/ModuleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/Project.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/ProjectExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/ProjectExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/ProjectExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/bean/ProjectExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/controller/AnalysisController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/controller/AttachmentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/controller/FunctionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/controller/ModuleControler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/controller/ProjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/dao/AnalysisMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/dao/AnalysisMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/dao/AttachmentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/dao/AttachmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/dao/FunctionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/dao/FunctionsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/dao/FunctionsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/dao/ModuleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/dao/ModuleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/dao/ProjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/dao/ProjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/service/AnalysisService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/service/AttachmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/service/FunctionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/service/ModuleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/service/ProjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/service/imp/AnalysisServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/service/imp/AttachmentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/service/imp/FunctionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/service/imp/ModuleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/pro/service/imp/ProjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/Baoxiao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/BaoxiaoExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/BaoxiaoExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/BaoxiaoExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/BaoxiaoExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/Position.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/PositionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/PositionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/PositionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/PositionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/TaskExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/TaskExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/TaskExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/bean/TaskExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/controller/BaoxiaoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/controller/TaskController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/dao/BaoxiaoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/dao/BaoxiaoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/dao/PositionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/dao/PositionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/dao/TaskMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/dao/TaskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/service/BaoxiaoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/service/TaskService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/service/imp/BaoxiaoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/usual/service/imp/TaskServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/utils/MapUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/utils/PageUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/utils/ResultEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/com/ujiuye/utils/ValidateCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/ant-1.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/ant-launcher-1.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/commons-collections4-4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/curvesapi-1.04.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/junit-4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/mail-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/poi-3.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/poi-examples-3.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/poi-excelant-3.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/poi-ooxml-3.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/poi-ooxml-schemas-3.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/poi-scratchpad-3.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/quartz-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/stax-api-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/lib/xmlbeans-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/baoxiao-task-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/baoxiao-task.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/customer-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/customer-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/customer-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Admin(1).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Bar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/CssAdmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Dot_Info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Edit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Explain.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Login_line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Login_tit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Menu_BG.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Menu_BG1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Select.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/SoftKey.Js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/SoftKey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/SortEnd_Folder_Close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/SortEnd_Folder_Open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Sort_File.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Sort_File_End.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Sort_Folder_Close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Sort_Folder_Open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Sort_Listline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Survey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/SysLeft_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/Upload.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/admin_p.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/bg2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/crm_9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/css1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/dot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/help_icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/home.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/jquery-1.8.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/left.files/style_left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/left.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/left_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/left_menu_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/logo_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/menu01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/menu01_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/minus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/newhead.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/paymentsby_01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/plus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/qqonline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/style_left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/syscome.files/Admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/syscome.files/Admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/syscome.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/teble_bottom_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/teble_bottom_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/teble_top_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/teble_top_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/top_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/top_table_leftbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/images/tx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/message-give.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/message-seed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/message.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/modpassword.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/mybaoxiao-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/mybaoxiao-base.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/mybaoxiao-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-base-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-base-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-base-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-base.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-file-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-file-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-file-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-file.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-function-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-function-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-function-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-function.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-model-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-model-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-model-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-model.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-need-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-need-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-need-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/project-need.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/resources-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/resources-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/resources.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/role-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/role-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/role-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/role.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/addnews.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/arr3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/arr4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/arrfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/arrl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/arrr.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/book.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/book1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/bottombg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/file_dir.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/gtk-del.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/gtk-sadd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/ico_spider.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/manage1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/menu-ex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/menu_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/menu_bottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/menu_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/menuarrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/menubg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/menumember.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/menusearch.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/part-index.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/qc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/sp_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/topbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/topitembg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/images/frame/wbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/skin/js/frame/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/skin/twoer/datepicker-dev.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/skin/twoer/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/skin/twoer/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/skin/twoer/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/开发包/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/开发包/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/开发包/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/开发包/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/My97DatePicker/开发包/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/static/js/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/task-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/task-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/task-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/task-my.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/task.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/upload/0976a197e0794206b4e6ae2ddf8e042bIMG20160319182602.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/upload/520f090a05774df7ae7ae5d0d5d6e6f0红米.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/upload/57b2d04dd66743ef897e143f1ca1b7d0每日一测.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/upload/b5e805a9054b41a0ad23d0cc43a7227a入党志愿.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/user-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/user-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/user-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PSM-1.0-SNAPSHOT/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext-email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext-quartz.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext_redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application_transaction.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/compare/dao/DatacollectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/cust/bean/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/cust/bean/CustomerExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/cust/bean/CustomerExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/cust/bean/CustomerExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/cust/bean/CustomerExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/cust/controller/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/cust/dao/CustomerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/cust/dao/CustomerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/cust/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/cust/service/imp/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/datacollect/bean/Datacollect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/datacollect/bean/DatacollectExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/datacollect/bean/DatacollectExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/datacollect/bean/DatacollectExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/datacollect/bean/DatacollectExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/datacollect/controller/DatacollectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/datacollect/dao/DatacollectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/datacollect/dao/DatacollectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/datacollect/service/DatacollectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/datacollect/service/impl/DatacollectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/bean/Archives.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/bean/ArchivesExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/bean/ArchivesExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/bean/ArchivesExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/bean/ArchivesExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/bean/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/bean/EmployeeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/bean/EmployeeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/bean/EmployeeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/bean/EmployeeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/controller/CodeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/dao/ArchivesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/dao/ArchivesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/dao/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/dao/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/service/ArchivesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/service/imp/ArchivesServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/emp/service/imp/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/format/DateTimeConveter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/format/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/bean/Email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/bean/EmailExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/bean/EmailExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/bean/EmailExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/bean/EmailExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/bean/Msg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/bean/MsgExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/bean/MsgExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/bean/MsgExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/bean/MsgExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/controller/EmailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/dao/EmailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/dao/EmailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/dao/MsgMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/dao/MsgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/service/EmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/info/service/imp/EmailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/jobs/JobApp01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/jobs/JobEmail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/Analysis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/AnalysisExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/AnalysisExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/AnalysisExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/AnalysisExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/Attachment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/AttachmentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/AttachmentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/AttachmentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/AttachmentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/Functions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/FunctionsExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/FunctionsExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/FunctionsExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/FunctionsExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/Module.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/ModuleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/ModuleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/ModuleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/ModuleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/Project.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/ProjectExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/ProjectExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/ProjectExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/bean/ProjectExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/controller/AnalysisController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/controller/AttachmentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/controller/FunctionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/controller/ModuleControler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/controller/ProjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/dao/AnalysisMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/dao/AnalysisMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/dao/AttachmentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/dao/AttachmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/dao/FunctionsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/dao/FunctionsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/dao/ModuleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/dao/ModuleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/dao/ProjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/dao/ProjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/service/AnalysisService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/service/AttachmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/service/FunctionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/service/ModuleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/service/ProjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/service/imp/AnalysisServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/service/imp/AttachmentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/service/imp/FunctionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/service/imp/ModuleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/pro/service/imp/ProjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/RoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/RoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/RoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/RoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/RoleSourcesExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/RoleSourcesExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/RoleSourcesExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/RoleSourcesExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/RoleSourcesKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/Sources.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/SourcesExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/SourcesExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/SourcesExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/bean/SourcesExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/controller/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/controller/SourcesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/dao/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/dao/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/dao/RoleSourcesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/dao/RoleSourcesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/dao/SourcesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/dao/SourcesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/service/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/service/RoleSourcesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/service/SourcesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/service/imp/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/service/imp/RoleSourcesServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/sys/service/imp/SourcesServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/Baoxiao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/BaoxiaoExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/BaoxiaoExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/BaoxiaoExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/BaoxiaoExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/Forumpost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/ForumpostExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/ForumpostExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/ForumpostExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/ForumpostExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/Notice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/NoticeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/NoticeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/NoticeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/NoticeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/Position.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/PositionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/PositionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/PositionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/PositionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/TaskExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/TaskExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/TaskExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/bean/TaskExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/controller/BaoxiaoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/controller/ForumPostController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/controller/NoticeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/controller/PositionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/controller/TaskController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/dao/BaoxiaoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/dao/BaoxiaoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/dao/ForumpostMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/dao/ForumpostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/dao/NoticeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/dao/NoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/dao/PositionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/dao/PositionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/dao/TaskMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/dao/TaskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/service/BaoxiaoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/service/ForumPostService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/service/NoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/service/PositionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/service/TaskService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/service/imp/BaoxiaoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/service/imp/ForumPostServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/service/imp/NoticeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/service/imp/PositionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/usual/service/imp/TaskServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/utils/MapUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/utils/PageUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/utils/ResultEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ujiuye/utils/ValidateCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/EmailAppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/JobAppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-04-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-04-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-04-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-04-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-04-07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-04-08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-04-09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/archives_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/archives_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/baoxiao_002dtask_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/baoxiao_002dtask_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/customer_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/customer_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/customer_002dedit_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/customer_002dedit_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/customer_002dlook_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/customer_002dlook_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/customer_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/customer_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/forumPost_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/forumPost_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/indexvalue_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/indexvalue_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/indexvalue_002dbase_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/indexvalue_002dbase_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/info_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/info_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/login_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/login_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/main_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/main_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/menu_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/menu_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/message_002dgive_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/message_002dgive_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/message_002dseed_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/message_002dseed_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/message_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/message_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/modpassword_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/modpassword_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/mybaoxiao_002dbase_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/mybaoxiao_002dbase_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/mybaoxiao_002dedit_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/mybaoxiao_002dedit_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/notice_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/notice_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/page_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/page_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/pm_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/pm_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dbase_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dbase_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dbase_002dedit_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dbase_002dedit_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dbase_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dbase_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dfile_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dfile_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dfile_002dedit_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dfile_002dedit_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dfile_002dlook_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dfile_002dlook_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dfile_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dfile_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dfunction_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dfunction_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dfunction_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dfunction_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dmodel_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dmodel_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dmodel_002dedit_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dmodel_002dedit_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dmodel_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dmodel_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dneed_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dneed_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dneed_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/project_002dneed_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/role_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/role_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/task_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/task_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/task_002dedit_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/task_002dedit_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/task_002dlook_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/task_002dlook_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/task_002dmy_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/task_002dmy_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/task_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/task_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/top_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/top_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/user_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/psm/org/apache/jsp/user_jsp.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PSM" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="HTML4 File" />
+        <option value="XHTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Example_Where_Clause</find>
+      <find>empFk</find>
+      <find>ename</find>
+      <find>, starttime=Wed Sep 09 08:00:00 CST 1998,</find>
+      <find>commit</find>
+      <find>comname</find>
+      <find>selectByPrimaryKey</find>
+      <find>System</find>
+      <find>selectByExample</find>
+      <find>proname</find>
+      <find>modeleFk</find>
+      <find>fid</find>
+      <find>session</find>
+      <find>Infott</find>
+      <find>apply</find>
+      <find>select</find>
+      <find>saveInfo</find>
+      <find>maven</find>
+      <find>search</find>
+      <find>getOne</find>
+      <find>BaseResultMap</find>
+      <find>insert</find>
+      <find>getPro</find>
+      <find>ashbell</find>
+      <find>main</find>
+      <find>sea</find>
+      <find>emp</find>
+      <find>msg</find>
+      <find>delete</find>
+      <find>删除失败</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ujiuye</replace>
+      <replace>employee</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/sss.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/utils/MapUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/service/imp/BaoxiaoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/usual/controller/TaskController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/pro/controller/FunctionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/pro/bean/Project.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/emp/bean/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/cust/bean/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/project-need-add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/pro/service/imp/AnalysisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/project-need.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/pro/controller/AnalysisController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/project-model.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/pro/bean/Analysis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/pro/controller/ModuleControler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/project-function.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/pro/controller/AttachmentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/project-file.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/task.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/project-model-edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/task-edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/task-my.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext_redis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/datacollect/dao/DatacollectMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/datacollect/dao/DatacollectMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/datacollect/service/DatacollectService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/datacollect/service/impl/DatacollectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/datacollect/controller/DatacollectController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/cust/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/emp/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/info.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/message-seed.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/pro/controller/ProjectController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/pro/service/imp/ProjectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/message.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/info/service/EmailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/info/service/imp/EmailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/info/dao/EmailMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/info/bean/Email.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/info/dao/EmailMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/info/controller/EmailController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/message-give.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ujiuye/pro/bean/Attachment.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/project-base.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/project-base-add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/project-base-edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/task-add.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/development/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\development\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="PSM" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="PSM" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="700" />
+    <option name="y" value="10" />
+    <option name="width" value="1535" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+              <item name="datacollect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+              <item name="pro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+              <item name="pro" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+              <item name="pro" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+              <item name="pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+              <item name="pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="imp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+              <item name="usual" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+              <item name="usual" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ujiuye" type="462c0819:PsiDirectoryNode" />
+              <item name="usual" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="XHTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576214713810" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="F:/gitSpace" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20337301" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\wps_my\PSM\src\main\webapp" />
+      <recent name="F:\wps_my\PSM\src\main\java\com\ujiuye\datacollect" />
+      <recent name="F:\wps_my\PSM\src\main\java\com\ujiuye\compare" />
+      <recent name="F:\ujiuye_Three_SSM\PSM\src\main\resources" />
+      <recent name="F:\ujiuye_Three_SSM\PSM\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.PSM [tomcat7:run]">
+    <configuration name="JobAppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JobAppTest" />
+      <module name="PSM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PSM" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PSM" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PSM" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailAppTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PSM" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmailAppTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PSM [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.26" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.26" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="PSM:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/psm" />
+          </settings>
+        </artifact>
+        <file path="F:/upload">
+          <settings>
+            <option name="CONTEXT_PATH" value="/psm/upload" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_PSM" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51401" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="PSM:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JobAppTest" />
+      <item itemvalue="JUnit.AppTest.test01" />
+      <item itemvalue="JUnit.AppTest.test2" />
+      <item itemvalue="JUnit.EmailAppTest.test" />
+      <item itemvalue="JUnit.AppTest.test3" />
+      <item itemvalue="Maven.PSM [tomcat7:run]" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.26" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.test3" />
+        <item itemvalue="JUnit.EmailAppTest.test" />
+        <item itemvalue="Application.JobAppTest" />
+        <item itemvalue="JUnit.AppTest.test2" />
+        <item itemvalue="JUnit.AppTest.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dc17de1-4b57-4a4d-b52b-5efc6d990e66" name="Default Changelist" comment="" />
+      <created>1574745996775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574745996775</updated>
+      <workItem from="1574746002728" duration="96825000" />
+      <workItem from="1575076572344" duration="83499000" />
+      <workItem from="1575346355180" duration="104943000" />
+      <workItem from="1575850163621" duration="16551000" />
+      <workItem from="1575938324938" duration="20134000" />
+      <workItem from="1576214863628" duration="387000" />
+      <workItem from="1576215636733" duration="5000" />
+      <workItem from="1576215705126" duration="47000" />
+      <workItem from="1576216074350" duration="1817000" />
+      <workItem from="1576223927929" duration="2836000" />
+      <workItem from="1576238922088" duration="32000" />
+      <workItem from="1578222519782" duration="1171000" />
+      <workItem from="1584540861976" duration="39993000" />
+      <workItem from="1584778541799" duration="49631000" />
+      <workItem from="1585644348682" duration="18941000" />
+      <workItem from="1586611331568" duration="192000" />
+      <workItem from="1586612059902" duration="10312000" />
+    </task>
+    <task id="LOCAL-00001" summary="aaaa">
+      <created>1586612235018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586612235018</updated>
+    </task>
+    <task id="LOCAL-00002" summary="aaaa">
+      <created>1586623801273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586623801273</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AppTest_test01 - 2019.11.30 at 10h 44m 04s.xml">
+      <configuration name="AppTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_test2 - 2019.12.01 at 19h 58m 22s.xml">
+      <configuration name="AppTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailAppTest_test - 2019.12.04 at 15h 39m 45s.xml">
+      <configuration name="EmailAppTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_test3 - 2019.12.12 at 19h 35m 23s.xml">
+      <configuration name="AppTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_test3 - 2019.12.12 at 19h 36m 03s.xml">
+      <configuration name="AppTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_test3 - 2019.12.12 at 19h 37m 06s.xml">
+      <configuration name="AppTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_test3 - 2019.12.12 at 19h 41m 32s.xml">
+      <configuration name="AppTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_test3 - 2019.12.12 at 19h 41m 49s.xml">
+      <configuration name="AppTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_test3 - 2019.12.12 at 20h 30m 26s.xml">
+      <configuration name="AppTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_test3 - 2020.03.20 at 13h 28m 03s.xml">
+      <configuration name="AppTest.test3" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="447316000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5023256" side_tool="true" weight="0.20040214" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49760765" visible="true" weight="0.19235925" />
+      <window_info id="Structure" order="7" sideWeight="0.50239235" side_tool="true" weight="0.21983914" />
+      <window_info anchor="bottom" id="Duplicate detector" order="0" weight="0.32796487" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.11614731" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.41890082" side_tool="true" weight="0.6661952" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.9575071" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.04249292" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.3281471" />
+      <window_info anchor="bottom" id="Application Servers" order="11" sideWeight="0.49865952" weight="0.28854313" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.5810992" weight="0.042432815" />
+      <window_info anchor="bottom" id="Debug" order="13" weight="0.06364922" />
+      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="16" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.02010724" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5023256" side_tool="true" weight="0.20040214" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49760765" visible="true" weight="0.26206434" />
+      <window_info id="Structure" order="7" sideWeight="0.50239235" side_tool="true" weight="0.21983914" />
+      <window_info anchor="bottom" id="Duplicate detector" order="0" weight="0.32796487" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.41890082" side_tool="true" weight="0.6661952" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.25622255" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.3281471" />
+      <window_info anchor="bottom" id="Application Servers" order="11" sideWeight="0.49865952" weight="0.28854313" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.5810992" weight="0.042432815" />
+      <window_info anchor="bottom" id="Debug" order="13" weight="0.06364922" />
+      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="16" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.02010724" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaaa" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ujiuye/pro/controller/AnalysisController.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/format/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/info/dao/EmailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6050">
+          <caret line="242" column="25" selection-start-line="242" selection-start-column="25" selection-end-line="242" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="73" column="61" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application_transaction.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/usual/bean/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/emp/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/info/bean/Email.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/pro/bean/Analysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/pro/bean/Module.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/emp/bean/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/cust/bean/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/pro/bean/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/pro/bean/Attachment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/project-base.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/project-base-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/project-base-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/project-function-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/pro/controller/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="119" selection-start-line="119" selection-end-line="132" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/pro/service/ProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/pro/service/imp/ProjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="67" selection-start-line="67" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/usual/controller/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-622">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/task.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/task-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="114" column="13" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="114" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/message.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3250">
+          <caret line="130" column="23" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
+          <folding>
+            <element signature="e#27#33#1" expanded="true" />
+            <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#33#39#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/message-seed.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ujiuye/info/controller/EmailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1877">
+          <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/archives.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="e#119#125#0" expanded="true" />
+            <element signature="e#125#131#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="e#135#141#0" expanded="true" />
+            <element signature="e#141#147#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="e#122#128#0" expanded="true" />
+            <element signature="e#128#134#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="e#119#125#0" expanded="true" />
+            <element signature="e#125#131#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="e#135#141#0" expanded="true" />
+            <element signature="e#141#147#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="e#121#127#0" expanded="true" />
+            <element signature="e#127#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/vue01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/echarts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-413" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/page.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1500" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1302" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/role.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/role-add.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/task-my.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/task-look.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/role-look.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/role-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/user-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/user-look.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7175">
+          <caret line="287" column="10" selection-start-line="13" selection-start-column="2" selection-end-line="287" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>PSM:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20337301" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PSM</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20337301" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20337301" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

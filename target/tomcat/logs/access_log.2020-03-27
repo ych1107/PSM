@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:12:59:48 +0800] "GET /PSM/message-give.jsp HTTP/1.1" 302 - http-bio-8888-exec-6 19
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:12:59:48 +0800] "GET /PSM/login.jsp HTTP/1.1" 200 5496 http-bio-8888-exec-6 15
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:12:59:48 +0800] "GET /PSM/code/getCode?time= HTTP/1.1" 200 799 http-bio-8888-exec-5 33
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:12:59:57 +0800] "POST /PSM/emp/login HTTP/1.1" 302 - http-bio-8888-exec-5 51
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:12:59:57 +0800] "GET /PSM/index.jsp HTTP/1.1" 200 831 http-bio-8888-exec-5 1
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:12:59:57 +0800] "GET /PSM/top.jsp HTTP/1.1" 200 3028 http-bio-8888-exec-5 2
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:12:59:57 +0800] "GET /PSM/menu.jsp HTTP/1.1" 200 3667 http-bio-8888-exec-2 3
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:12:59:57 +0800] "GET /PSM/main.jsp HTTP/1.1" 200 8389 http-bio-8888-exec-3 2
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:12:59:57 +0800] "GET /PSM/js/jquery-1.8.1.js HTTP/1.1" 404 995 http-bio-8888-exec-3 3
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:12:59:57 +0800] "GET /PSM/js/jquery-1.8.1.js HTTP/1.1" 404 995 http-bio-8888-exec-3 2
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:12:59:58 +0800] "GET /PSM/task/taskStatus HTTP/1.1" 200 11 http-bio-8888-exec-2 4
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:12:59:58 +0800] "GET /PSM/notice/getNews HTTP/1.1" 200 396 http-bio-8888-exec-3 5
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:13:00:00 +0800] "GET /PSM/message-give.jsp HTTP/1.1" 200 3566 http-bio-8888-exec-3 1
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:13:00:00 +0800] "GET /PSM/skin/images/wbg.gif HTTP/1.1" 404 997 http-bio-8888-exec-5 2
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:13:00:00 +0800] "GET /PSM/skin/images/newlinebg3.gif HTTP/1.1" 404 1011 http-bio-8888-exec-2 2
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:13:00:00 +0800] "GET /PSM/skin/images/allbg.gif HTTP/1.1" 404 1001 http-bio-8888-exec-3 3
+0:0:0:0:0:0:0:1 - - [27/Mar/2020:13:00:00 +0800] "GET /PSM/skin/images/tbg.gif HTTP/1.1" 404 997 http-bio-8888-exec-10 4
